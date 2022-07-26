@@ -1,9 +1,49 @@
+/* @font-face {
+  font-family: "Metrica";
+  src: url("../../../assets/fonts/Metrica/400.otf") format("opentype");
+} */
+
 .main {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.535)),
     url("../../../assets/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+  font-size: 2rem;
+}
+
+.main-headline {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  height: 60%;
+}
+
+.main-headline h1 {
+  font-family: "Metrica", sans-serif;
+  font-size: 3rem;
+}
+
+.information-container {
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  height: 25vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.information-container div {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Lobster", cursive;
 }

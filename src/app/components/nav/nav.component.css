@@ -6,12 +6,20 @@
   justify-content: center;
   padding: 0.5rem 1rem;
   justify-content: space-evenly;
+  color: white;
+  font-size: 1.1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.535));
+}
+
+.logo {
+  font-family: "Metrica", sans-serif;
+  font-size: 1.4rem;
 }
 
 ul {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
   display: flex;
   width: 160%;
   justify-content: space-evenly;
