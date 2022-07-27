@@ -73,7 +73,7 @@ p {
 }
 
 .small-menu div:hover {
-  background: grey;
+  background: rgb(215, 214, 214);
   color: black;
   cursor: pointer;
 }
