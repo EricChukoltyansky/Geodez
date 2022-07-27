@@ -56,22 +56,20 @@ p {
 }
 
 .small-menu {
-  margin-top: 20px;
+  /* margin-top: 10px; */
   width: 40vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   border: 1px solid black;
+  margin: 0 auto;
 }
 
 .small-menu div {
   color: white;
   background-color: transparent;
-  border: none;
-  display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 0.8em;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding-right: 5px;
 }
 
