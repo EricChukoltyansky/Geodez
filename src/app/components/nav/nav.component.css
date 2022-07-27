@@ -3,24 +3,41 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
+  align-items: center;
   justify-content: space-evenly;
   color: white;
   font-size: 1.1rem;
   background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.535));
+  height: 50px;
 }
 
 .logo {
   font-family: "Metrica", sans-serif;
   font-size: 1.4rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.ul-container {
+  height: 100%;
   display: flex;
-  width: 160%;
-  justify-content: space-evenly;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-container div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+}
+
+.ul-container div:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.535));
+  cursor: pointer;
 }
