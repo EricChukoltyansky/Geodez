@@ -57,14 +57,22 @@ p {
 
 .small-menu {
   margin-top: 20px;
-  width: 100%;
-  border: 1px solid red;
+  width: 40vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .small-menu div {
-  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.535));
+  color: white;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  border: 1px solid white;
+  padding-right: 5px;
 }
 
 /* Animation */
