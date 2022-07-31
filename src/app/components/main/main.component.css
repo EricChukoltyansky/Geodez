@@ -36,6 +36,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  animation: center-animate 2s ease alternate;
+  animation-fill-mode: forwards;
+}
+
+.writing-content {
+  position: absolute;
+  bottom: 430px;
 }
 
 p {
@@ -56,11 +63,9 @@ p {
 }
 
 .small-menu {
-  /* margin-top: 10px; */
   width: 40vw;
   display: flex;
   justify-content: space-evenly;
-  /* border: 1px solid black; */
   margin: 0 auto;
 }
 
@@ -81,7 +86,6 @@ p {
   border: 1px solid white;
 }
 
-/* Animation */
 .anim-typewriter {
   animation: typewriter 3s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
@@ -100,5 +104,13 @@ p {
   }
   to {
     border-right-color: transparent;
+  }
+}
+@keyframes center-animate {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.5);
   }
 }

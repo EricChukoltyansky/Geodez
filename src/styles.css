@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Oswald&display=swap");
 @font-face {
   font-family: "Metrica";
   src: url("../src/assets/fonts/Metrica.otf") format("opentype");
@@ -9,5 +8,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Anton", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
