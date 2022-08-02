@@ -1,8 +1,6 @@
 <div class="main">
   <app-nav></app-nav>
-  <div
-    [ngClass]="toggleInfoContainer ? 'main-headline-toggle' : 'main-headline'"
-  >
+  <div class="main-headline" [@transitionTrigger]="toggleInfoContainer">
     <div class="logo">
       <h1>ROM</h1>
     </div>
@@ -28,11 +26,11 @@
       <div (click)="handleShowInformation()">About</div>
     </div>
     <div class="white-border">
-      <div (click)="handleShowInformation()">Services</div>
+      <div>Services</div>
     </div>
     <div class="white-border">
       <div (click)="handleShowInformation()">Contact</div>
     </div>
   </div>
-  <app-about></app-about>
+  <!-- <app-about *ngIf="toggleInfoContainer"></app-about> -->
 </div>

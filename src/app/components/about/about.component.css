@@ -1,0 +1,24 @@
+.about-wrapper {
+  margin-top: 100px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.about-container {
+  /* border: 1px solid #eee; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  width: 50vw;
+  /* border: 1px solid red; */
+  height: 30vh;
+}
+
+.about-text {
+  font-size: clamp(1.2rem, 1.2vw, 2.5rem);
+  width: 85%;
+}
