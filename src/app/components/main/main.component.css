@@ -66,6 +66,7 @@
   position: absolute;
   /* border: 1px solid red; */
   bottom: 70%;
+  transition: 2s ease-in;
 }
 
 p {

@@ -23,7 +23,7 @@ import {
           height: '30%',
         })
       ),
-      transition('false => true', [animate('1s ease-in')]),
+      transition('false => true', [animate('2s ease-in')]),
     ]),
   ],
 })
