@@ -24,7 +24,17 @@
   border: 1px solid red;
 }
 
-.main-headline h1 {
+.main-headline-toggle {
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  height: 60%;
+  border: 1px solid red;
+}
+
+.main-headline h1,
+.main-headline-toggle h1 {
   font-family: "Metrica", sans-serif;
   font-size: 3rem;
 }
@@ -49,6 +59,11 @@
 .writing-content {
   position: absolute;
   bottom: 55%;
+}
+
+.writing-content-toggle {
+  position: absolute;
+  bottom: 68%;
 }
 
 p {
@@ -94,7 +109,7 @@ p {
 
 .logo {
   border: 1px solid red;
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
 }
 
 .anim-typewriter {

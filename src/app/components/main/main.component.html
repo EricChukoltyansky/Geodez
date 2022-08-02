@@ -1,6 +1,8 @@
 <div class="main">
   <app-nav></app-nav>
-  <div class="main-headline">
+  <div
+    [ngClass]="toggleInfoContainer ? 'main-headline-toggle' : 'main-headline'"
+  >
     <div class="logo">
       <h1>ROM</h1>
     </div>
@@ -8,7 +10,11 @@
       class="information-container"
       [class.information-container-animation]="toggleInfoContainer"
     ></div>
-    <div class="writing-content">
+    <div
+      [ngClass]="
+        toggleInfoContainer ? 'writing-content-toggle' : 'writing-content'
+      "
+    >
       <div class="rom-measurment flex-center">
         <h2>ROM Measurments</h2>
       </div>
