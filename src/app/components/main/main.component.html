@@ -1,5 +1,5 @@
 <div class="main">
-  <app-nav></app-nav>
+  <app-nav (showAbout)="handleShowAbout($event)"></app-nav>
   <div class="main-headline" [@transitionTrigger]="toggleInfoContainer">
     <div class="logo">
       <h1>ROM</h1>

@@ -23,7 +23,7 @@ import {
           height: '30%',
         })
       ),
-      transition('false => true', [animate('2s ease-in')]),
+      transition('false => true', [animate('1s ease-in')]),
     ]),
   ],
 })
@@ -36,5 +36,9 @@ export class MainComponent implements OnInit {
 
   handleShowInformation() {
     this.toggleInfoContainer = true;
+  }
+
+  handleShowAbout(eventData: boolean) {
+    this.toggleInfoContainer = eventData;
   }
 }
