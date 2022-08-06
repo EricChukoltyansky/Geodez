@@ -22,13 +22,18 @@
     </div>
   </div>
   <div class="small-menu">
-    <div class="white-border">
-      <div (click)="handleShowInformation()">About</div>
+    <div class="white-border" [class.active-button]="toggleInfoContainer">
+      <div
+        (click)="handleShowInformation()"
+        [class.active-button]="toggleInfoContainer"
+      >
+        About
+      </div>
     </div>
     <div class="white-border">
       <div>Services</div>
     </div>
-    <div class="white-border">
+    <div class="white-border" [class.active-button]="toggleInfoContainer">
       <div (click)="handleShowInformation()">Contact</div>
     </div>
   </div>
