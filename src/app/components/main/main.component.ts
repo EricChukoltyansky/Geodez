@@ -20,7 +20,7 @@ import {
           flexDirection: 'column',
           color: '#fff',
           display: 'flex',
-          height: '30%',
+          height: '40%',
         })
       ),
       transition('false => true', [animate('1s ease-in')]),
